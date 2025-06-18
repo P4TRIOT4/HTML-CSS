@@ -1,0 +1,15 @@
+@charset ¨UTF_8¨;
+
+
+  body{
+        background-color: antiquewhite;
+    }
+    h1{
+        color: aquamarine;
+    }
+    h2{
+        color: burlywood;
+    }
+    p{
+        font-size: 20;
+    }

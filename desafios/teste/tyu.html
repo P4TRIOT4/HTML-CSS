@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rodapé no final</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Garante que o body e html ocupem 100% da altura da tela */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox vertical no container principal */
+.pagina {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* main cresce e empurra o rodapé */
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Rodapé estilizado */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+  </style>
+</head>
+<body>
+  <div class="pagina">
+    <main>
+      <h1>Bem-vindo</h1>
+      <p>Conteúdo da página aqui...</p>
+    </main>
+
+    <footer>
+      <p>© 2025 - Meu Rodapé</p>
+    </footer>
+  </div>
+</body>
+</html>
