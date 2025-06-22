@@ -1,7 +1,7 @@
 # HTML-CSS
 curso html e css
 
-<a href="https://p4triot4.github.io/HTML-CSS/exercicios/ex022/fundo002.html">exercicio 10</a>
+<a href="https://p4triot4.github.io/HTML-CSS/exercicios/ex022/fundo001.html">exercicio 22</a>
 
 .
 estou aprendendo a mexer no github, e agora vou testar a atualizaçao de repositorios
