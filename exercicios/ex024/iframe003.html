@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso do iframe</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugit aliquid! Molestiae, illo! Debitis ullam expedita nostrum accusamus quisquam eum voluptatem hic veniam, obcaecati libero pariatur inventore fugiat alias. Porro?</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame1">primeira pagina</a></li>
+         <li><a href="pag002.html" target="frame1">segunda pagina</a></li>
+          <li><a href="pag003.html" target="frame1">terceira pagina</a></li>
+    </ul>
+
+    
+    <iframe srcdoc="click nos links acima" name="frame1">
+        <p>infelizmente seu navegador nao é compativel com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur optio illum enim perspiciatis, eligendi iure totam nemo. Explicabo exercitationem expedita iusto ratione sit! Omnis magnam obcaecati ab minima quibusdam.</p>
+</body>
+</html>
