@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on" method="get">  
+
+          <p>
+            <label for="iest">estado:</label>
+            <select name="estado" id="iest">
+         <optgroup label="regiao sudeste">
+             <option value="Rj">rio de janeiro</option>
+             <option value="sp" selected>sao paulo</option>
+             <option value="MG">minas gerais</option>
+         </optgroup>
+            </select>
+         <p>
+
+            <p>
+                <label for="iprof">profissao</label>
+                <input type="text" name="profissao" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="adm">adiministrador</option>
+                    <option value="prof">professor</option>
+                    <option value="dev">desenvolvedor</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="irec">reclame aqui:</label><br>
+                <textarea name="rec" id="irec" cols="30" rows="5"></textarea>
+            </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
