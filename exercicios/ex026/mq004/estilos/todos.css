@@ -1,0 +1,68 @@
+/*para impressora*/
+@media print{
+
+    *{
+        font-family: 'Courier New', 
+    }
+
+    body{
+        background-image: url(../imsgens/back-print.jpg);
+    }
+
+    main{
+        border: 1px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{ display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+/*tela tablet*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    body{
+        background-image: url(../imsgens/back-tablet.jpg);
+    }
+   
+    #phone{display: none;}
+    #tablet{display: block;}
+    #print{ display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+/*tela desktop*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    body{
+        background-image: url(../imsgens/back-pc.jpg);
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{ display: none;}
+    #pc{display: block;}
+    #tv{display: none;}
+}
+
+/*tela tv*/
+@media screen and (min-width: 1441px) {
+
+    body{
+    background-image: url(../imsgens/back-tv.jpg);
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{ display: none;}
+    #pc{display: none;}
+    #tv{display: block;}
+}
