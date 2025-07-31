@@ -17,6 +17,15 @@ header > h1{
     text-align: center;
 }
 
+menu{
+    display: none;
+}
+
+#menuzin:checked + menu{
+    display: block;
+}
+
+
 #burguer{
     background-color: rgb(63, 63, 63);
     color: white;
@@ -32,9 +41,7 @@ header > h1{
 }
 
 
-menu{
-    display: none;
-}
+
 
 menu > ul{
     list-style-type: none;
