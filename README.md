@@ -7,6 +7,8 @@ curso html e css
 
 <a href="https://p4triot4.github.io/HTML-CSS/exercicios/ex026/mq002.html/index.html">exercicio 002 midia query</a>
 
+<a href="https://p4triot4.github.io/HTML-CSS/projeto-login/index.html">exercicio 002 midia query</a>
+
 <br>
 .
 estou aprendendo a mexer no github, e agora vou testar a atualizaçao de repositorios
