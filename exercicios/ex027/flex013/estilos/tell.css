@@ -1,0 +1,17 @@
+header{
+   flex-flow: column nowrap;
+}
+
+header > menu{
+    flex-flow: column nowrap;
+}
+
+a{
+    width: 90vw;
+}
+
+header > h1{
+    flex-basis: 50px;
+    
+    margin: auto;
+}
