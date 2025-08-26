@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+     body{
+        height: 100vh;
+        background: radial-gradient(circle, rgb(29, 20, 160) 0%, #05011f 100%);
+     }
+
+     main{
+        height: 90vh;
+
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+       
+     }
+
+     #titulos{
+        margin-left: 30px;
+        margin-right: 45px;
+        color: white;
+        font-size: small;
+     }
+    
+    #hora{
+         font-weight: 10;
+         color: white;
+         text-align: right;
+    }
+
+     h1{
+         font-weight: 10;
+         color: white;
+     }
+
+     div:hover{
+     border: 7px solid orange;
+     }
+
+     #hdmi{
+        background-color: rgb(29, 29, 29);
+        width: 300px;
+       
+        display: flex;
+        flex-direction: column;
+     }
+
+
+
+     #usb{
+       background-color: purple;
+       background-size: cover;
+         width: 300px;
+       
+        display: flex;
+        flex-direction: column;
+     }
+
+     #usb > p{
+       padding: 185px;
+     }
+
+     #hdmi > a{
+         text-decoration: none;
+         border: 1px solid  rgb(26, 25, 25);
+         color: rgb(172, 172, 172);
+         padding: 30px;
+         text-align: center;
+     }
+
+     #hdmi >a:hover{
+        border: 7px solid orange;
+     }
+    
+     #app{
+      
+
+        color: #05011f;
+        display: flex;
+        flex-flow: row wrap;
+     }
+
+     #h11{
+         margin-top: 37px;
+     }
+
+     #net{
+      background-color: white;
+      color: red;
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+      margin: 10px;
+     }
+
+     #you{
+      background-color: rgb(255, 0, 0);
+      color: rgb(255, 255, 255);
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+       margin: 10px;
+     }
+
+     #twt{
+      background-color: rgb(255, 255, 255);
+      color: rgb(3, 238, 255);
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+       margin: 10px;
+     }
+
+     #ac{
+      background-color: white;
+      color: rgb(255, 132, 0);
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+       margin: 10px;
+     }
+
+     #fc{
+      background-color: rgb(58, 3, 255);
+      color: rgb(246, 246, 246);
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+       margin: 10px;
+     }
+
+     #mi{
+      background-color: rgb(254, 110, 0);
+      color: rgb(255, 255, 255);
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+       margin: 10px;
+     }
+
+     #g1{
+      background-color: rgb(151, 6, 55);
+      color: rgb(255, 255, 255);
+      width: 170px;
+      padding: 55px;
+      text-align: center;
+      display: block;
+       margin: 10px;
+     }
+    </style>
+</head>
+<body>
+
+      <h1 id="hora">19:51</h1>
+
+    <main>
+
+      <article id="titulos">
+        <h1>HDMI 1</h1>
+          <article id="hdmi">
+           <a href="#">AR</a>
+           <a href="#">CABO</a>
+           <a href="#">HDMI1</a>
+           <a href="#">HDMI2</a>
+           <a href="#">AV</a>
+          </article>
+      </article>
+       
+      <article id="titulos">
+        <h1>USB</h1>
+      <div id="usb">
+          <p>O</p>  
+      </div>
+      </article>
+
+      <article id="titulos">
+        <h1 id="h11">APLICATIVOS</h1>
+      <article id="app">
+       
+        <div id="net">netflix</div>
+
+        <div id="you">youtube</div>
+
+        <div id="twt">twitter</div>
+
+        <div id="ac">acuweaarther</div>
+
+        <div id="fc">facebook</div>
+
+        <div id="mi">midiacast</div>
+
+        <div id="g1">globo</div>
+        
+      </article>
+      </article>
+    </main>
+</body>
+</html>
